@@ -1,4 +1,4 @@
-(https://oj.leetcode.com/problems/reverse-words-in-a-string/)[https://oj.leetcode.com/problems/reverse-words-in-a-string/]
+ [https://oj.leetcode.com/problems/reverse-words-in-a-string/](https://oj.leetcode.com/problems/reverse-words-in-a-string/)
 
 ``` python
 class Solution:
