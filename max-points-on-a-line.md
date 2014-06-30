@@ -43,7 +43,7 @@ public:
 
 MaskRay大神不明觉厉的[做法](https://github.com/MaskRay/LeetCode/blob/master/max-points-on-a-line.cc)
 
-```
+``` cpp
 #define FOR(i, a, b) for (__typeof(b) i = (a); i < (b); i++)
 #define REP(i, n) FOR(i, 0, n)
 
