@@ -1,5 +1,6 @@
 https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/
 
+SB解法：
 ``` python
 # Definition for singly-linked list.
 class ListNode:
@@ -38,6 +39,26 @@ if __name__ == '__main__':
   while head:
     print(head.val)
     head = head.next
+
+```
+O(n)复杂度的解法：
+
+``` cpp
+class Solution {
+public:
+	ListNode *removeNthFromEnd(ListNode *head, int n) {
+		ListNode **x = &head, *y = head;
+		while (n--) y = y->next;
+		while (y) {
+			x = &(*x)->next;
+			y = y->next;
+		}
+		y = (*x)->next;
+		//delete *x
+		*x = y;
+		return head;
+	}
+};
 
 ```
         
