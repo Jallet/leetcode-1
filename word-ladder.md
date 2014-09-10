@@ -22,7 +22,6 @@ public:
 						q.push(str);
 						d[str] = (dd + 1);
 						dict.erase(str);
-						continue;
 					}
 				}
 				str[j] = tmp;
